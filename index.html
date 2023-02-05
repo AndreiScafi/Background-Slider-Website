@@ -1,16 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>My Project</title>
+    <title>Background Slider</title>
 </head>
+
 <body>
-    <h1>Project Starter</h1>
+    <div class="slider-container">
+        <div class="slide active"
+            style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3vLvKT0i-iWHZz3swrxT2MWO6yHeB_U91og&usqp=CAU')">
+        </div>
+        <div class="slide"
+            style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo7vk2uCYYjhWwPgOGVFHgcKPu8B4-mkb0yA&usqp=CAU')">
+        </div>
+        <div class="slide"
+            style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjUjUhZsnjQHOSmr3dYO3TN2gLJ0yiHsu6eg&usqp=CAU')">
+        </div>
+        <div class="slide"
+            style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGNjLUhRQR1QJ9jPogNNMpybGsZ3FVL9IL7Q&usqp=CAU')">
+        </div>
+        <div class="slide"
+            style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMZw8-T20v0qSWE2AUJxuww6tjBkNmY1vz9w&usqp=CAU')">
+        </div>
+
+        <button class="arrow left-arrow" id="left">
+            <i class="fas fa-arrow-left"></i>
+        </button>
+
+        <button class="arrow right-arrow" id="right">
+            <i class="fas fa-arrow-right"></i>
+        </button>
+    </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
