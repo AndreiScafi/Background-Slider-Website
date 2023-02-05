@@ -13,7 +13,6 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3vLvKT0i-iWHZz3swrxT2MWO6yHeB_U91og&usqp=CAU');
     background-position: center center;
     background-size: cover;
     transition: 0.4s ease;
